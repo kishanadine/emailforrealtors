@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.home {
+    background: url('images/main-graphic.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+header {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.head {
+    color: #fff;
+    font-size: 1rem;
+    word-spacing: 0.5rem;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    border-left: 3px solid blue;
+}
+
+li {
+    display: inline;
+    padding-right: 1.7rem;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.quote {
+    background-color: red;
+    padding: 0.5rem 1rem;
+    border-radius: 1.3rem;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+
+.name {
+    color: rgb(4, 4, 212);
+}
+
+.home h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.home h3 {
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.home p {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+a button {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+aside {
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.price {
+    color: gold;
+    font-size: 3rem;
+    padding-left: 0.7rem;
+}
+
+.btn {
+    background-color: #e44236;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+#why-email {
+    background-color: #fff;
+}
+
+#why-email h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#reasons {
+    margin: 5%;
+    display: flex;
+    text-align: center;
+}
+
+#reasons img {
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+#reasons p {
+    margin: 5%;
+}
+
+.stats {
+    height: 50vh;
+    width: 100vw;
+    background: url('images/modern-building-against-sky-323780.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.stats .forty {
+    height: 100%;
+    color: #fff;
+    background-color: rgb(0,0,0,0.7);
+    
+}
+
+.inner {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats .forty .roi {
+    margin-right: 2%;
+    width: 50%;
+    text-align: right;
+}
+
+.stats .forty h2 {
+    font-size: 4rem;
+}
+
+.invest {
+    border-left: 2px solid #fff;
+    
+    
+}
+.invest p {
+    text-align: left;
+    font-size: 1.8rem;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.chart img {
+    width: 8rem;
+    padding: 1%;
+} 
+
+#services {
+    background-color: #fff;
+}
+
+#services h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#offers {
+    margin: 5%;
+    display: flex;
+    text-align: center;
+}
+
+#offers img {
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+#offers p {
+    margin: 5%;
+}
+
+.apply {
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(4, 4, 212);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
